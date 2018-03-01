@@ -1,20 +1,20 @@
 html {
 	margin: 0;
 	padding: 0;
-	background-color: #ffff33;
-	color: white;
-	text-shadow: 3px 3px white;
+	min-width: 320px;
+	background-color: white;
+	color: red;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #ffff33;
+	background-color: white;
 }
 
 #header {
 	font-size: 13vw;
-	color: blue;
+	text-shadow: 4px 4px black;
 	font-family: monospace;
 	text-transform: uppercase;
 	text-align: center;
@@ -25,7 +25,7 @@ body {
 }
 
 p {
-	text-align: center;
+	text-align: left;
 	font-size: 11vw;
 	line-height: 2;
 	margin-left: .7em;
@@ -33,7 +33,7 @@ p {
 	margin-top: .35em;
 	margin-bottom: .35em;
 	padding: 0;
-	text-shadow: 3px 3px red;
+	text-shadow: 3px 3px black;
 }
 
 li {
@@ -42,13 +42,15 @@ li {
 	margin-left: .7em;
  	display: list-item;
  	text-align: left;
+ 	text-shadow: 3px 3px black;
  }
 
 a {
-	color: blue;
 	font-size: 11vw;
 	line-height: 1.8;
 	text-decoration: underline;
+	text-shadow: 5px 5px black;
+	color: white;
 }
 
-li {color: blue;}
+/* media queries for the text shdaow sizing down */
