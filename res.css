@@ -3,25 +3,25 @@ html {
 	padding: 0;
 	min-width: 320px;
 	background-color: white;
-	color: red;
+	color: black;
+	font-family: "Times New Roman", serif;
+	/* text-shadow: 3px 3px grey; */
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	background-color: white;
+
 }
 
 #header {
 	font-size: 13vw;
-	text-shadow: 4px 4px black;
-	font-family: monospace;
+	font-family: "Arial", sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
 	margin-bottom: .4em;
 	margin-top: .6em;
-	text-decoration: underline;
 }
 
 p {
@@ -33,7 +33,6 @@ p {
 	margin-top: .35em;
 	margin-bottom: .35em;
 	padding: 0;
-	text-shadow: 3px 3px black;
 }
 
 li {
@@ -42,15 +41,30 @@ li {
 	margin-left: .7em;
  	display: list-item;
  	text-align: left;
- 	text-shadow: 3px 3px black;
  }
 
 a {
 	font-size: 11vw;
 	line-height: 1.8;
 	text-decoration: underline;
-	text-shadow: 5px 5px black;
-	color: white;
 }
 
-/* media queries for the text shdaow sizing down */
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
