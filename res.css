@@ -5,66 +5,64 @@ html {
 	background-color: white;
 	color: black;
 	font-family: "Times New Roman", serif;
-	/* text-shadow: 3px 3px grey; */
 }
 
 body {
 	margin: 0;
 	padding: 0;
-
 }
 
-#header {
-	font-size: 13vw;
+.header {
+	font-size: 14vw;
 	font-family: "Arial", sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
-	margin-bottom: .4em;
-	margin-top: .6em;
+	margin-bottom: .3em;
+	margin-top: .5em;
 }
 
-p {
-	text-align: left;
+.text {
 	font-size: 11vw;
+	text-align: left;
 	line-height: 2;
 	margin-left: .7em;
 	margin-right: .7em;
 	margin-top: .35em;
 	margin-bottom: .35em;
 	padding: 0;
+
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
 }
 
 li {
-	font-size: 11vw;
-	line-height: 2;
-	margin-left: .7em;
  	display: list-item;
- 	text-align: left;
  }
 
 a {
-	font-size: 11vw;
-	line-height: 1.8;
 	text-decoration: underline;
 }
 
-/* unvisited link */
 a:link {
     color: black;
 }
 
-/* visited link */
 a:visited {
     color: black;
 }
 
-/* mouse over link */
 a:hover {
     color: black;
 }
 
-/* selected link */
 a:active {
     color: black;
 }
